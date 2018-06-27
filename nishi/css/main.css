@@ -1,0 +1,212 @@
+.container {
+  /* Giving top and bottom space for container */
+  margin: 2%;
+  padding: 1%;
+}
+
+/* Active class style */
+.active {
+  background-color: #537791;
+  border-bottom: 2px solid #020205;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+/* Style for login form */
+.login-col {
+  padding: 2% 3%;
+  margin: 1%;
+  background-color: #F2D1A8;
+  border-radius: 5px;
+}
+
+/* Form style common for all */
+.form-col {
+  padding: 2% 3%;
+  margin: 1%;
+  background-color: #F2D1A8;
+  border-radius: 5px;
+}
+
+/* common style for data col */
+.data-col {
+  padding: 2% 3%;
+  margin: 1%;
+  background-color: #E7E6E1;
+  color: #020205;
+  border-radius: 5px;
+}
+
+.navbar-nav .nav-item {
+  font-weight: 400;
+}
+
+.nav-link {
+  color: #F7F6E7 !important;
+}
+
+.logo-container {
+  margin: 1%;
+  transition: all 300ms ease-in-out;
+}
+
+.logo-container img {
+  width: 350px;
+  height: 103px;
+}
+
+.logo-container:hover .logo-container img {
+  opacity: 0.7;
+}
+
+/* Dropdown menu style */
+.dropdown-menu {
+  background-color: white !important; /* light background for dropdown container */
+  color: white;
+}
+
+.dropdown-menu a {
+  /* to give little animation when hovering on dropdown menu */
+  transition: all 200ms ease-in-out;
+}
+
+.dropdown-menu a:hover {
+  background-color: #00aded;
+  color: white;
+}
+
+/* Login page */
+#login-page-container {
+  background-color: #E7E6E1;
+  border: 3px solid #280F34;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+.login-left-col {
+  margin: auto;
+}
+
+/* Styles for footer */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 20px;
+}
+
+.footer .container {
+  background-color: #F4D143;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: grey;
+}
+
+.footer-text {
+  font-size: 0.9em;
+}
+
+/* alert messages */
+.error_msg {
+  background-color: #DD3E3E;
+  color: #FFF;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.success_msg {
+  background-color: #259F6C;
+  color: #FFF;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.paper-card {
+  margin-bottom: 10px !important;
+}
+
+.paper-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.paper-link {
+  margin-right: 5px;
+}
+
+/*
+Custom style for nav items and dropdowns
+ */
+
+.nav-item {
+  border-radius: 5px;
+  padding: 3px;
+  margin: 1px 5px;
+}
+
+.logout-item {
+  background-color: #DD3E3E !important;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 1px 5px;
+  transition: all 300ms ease-in-out;
+}
+
+.logout-item:hover {
+  background-color: #DD3E3E;
+}
+
+select {
+  padding: 5px 9px;
+  color: #351F39;
+  background-color: #FAE3D9;
+  font-size: 1.1em;
+}
+
+.fa-exclamation-circle {
+  color: red;
+  opacity: 0.4;
+  font-size: 8em;
+  transform: rotateY(5deg);
+  transition: all 300ms ease-in-out;
+}
+
+.fa-exclamation-circle:hover {
+  transform: scale(1.10);
+}
+
+.no-data {
+  opacity: 0.4;
+}
+
+.role {
+  text-decoration: underline;
+  text-decoration-color: #A40A3C;
+  text-decoration-style: solid;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.login_st_link {
+  font-size: 1.2em;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  font-weight: 500;
+}
+
+.alert_link {
+  color: white !important;
+  font-weight: 600;
+  text-decoration: underline;
+}
